@@ -1,0 +1,9 @@
+/node_modules
+/views
+/public
+/files
+.env
+package-lock.json
+*.crt
+*.key
+/oldcert
