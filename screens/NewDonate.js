@@ -162,7 +162,7 @@ export default function newDonate({ navigation, route }) {
       >
         שלח
       </Button>
-      <Text className={styles.description}>{JSON.stringify(error)}</Text>
+      <Text className={styles.description}>{error}</Text>
     </Background>
   )
 }
