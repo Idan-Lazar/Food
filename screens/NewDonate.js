@@ -47,8 +47,8 @@ export default function newDonate({ navigation, route }) {
       setError(response.data.reason)
     }
     else{
-      const res = await axios.get("https://hackapp.geralnik.com/truma");
-      navigation.navigate('Home', {newRestaurants: res.data.result});
+      route.params.onGoBack()
+      navigation.goBack()
     } 
     } catch (error) {
       setError(error)

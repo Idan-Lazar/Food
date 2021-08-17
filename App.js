@@ -50,7 +50,7 @@ const App = () => {
     <ApplicationProvider {...eva} theme={eva.light}>
     <NavigationContainer>
       <Stack.Navigator
-          initialRouteName='Home'
+          initialRouteName='StartScreen'
           screenOptions={{
             headerShown: false,
           }}>
